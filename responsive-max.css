@@ -1,0 +1,497 @@
+/* mobile version*/
+@media screen and (max-width: 600px) {
+
+    /* front page start - navbar og logo  */
+  label{
+    display: block;
+    cursor: pointer;
+    margin-top: -55px;
+    z-index: 10;
+  }
+
+  .menu{
+    text-align: center;
+    width: 100%;
+    display: none;
+    z-index: 10;
+   
+  }
+
+
+  .menu a{
+    display: block;
+    border-bottom: 1px solid black;
+    margin: 0;
+    padding-top: 0;
+    z-index: 10;
+  }
+
+  #toggle:checked + .menu{
+    display: block;
+    z-index: 10;
+    background-color: white;
+  }
+
+  .h1-txt{
+    position: relative;
+    float: left;
+    padding-left: 12px;
+    margin-top: -30px;
+    letter-spacing: 6px;
+    font-size: 7px;
+  }
+
+  .h1-txt span{
+    padding: 5px;
+  }
+
+  
+    img {
+      height:60px;
+      width: 60px;
+      margin-left: 10px;
+      margin-top: -50px;
+
+    }
+
+    .grid-container-followme, .grid-container-sc, .grid-container-fp, .grid-container-text{
+        width: 180%;
+
+    }
+
+    /*front page start - pictures*/
+    .front-column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+        margin-left: 10px;
+        margin-top: 2px;
+        z-index: -5;
+      }
+      
+      .front-column2{
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+        margin-top: 100px;
+        margin-left: -20px;
+        z-index: -5;
+      }
+      
+      .front-column3{
+        float: left;
+        padding: 5px;
+        margin-top: 200px;
+        margin-left: -20px;
+        z-index: -5;
+      }
+
+
+
+    /* front page start - velkommen */
+      .fp-velkommen{
+          padding-left: 0;
+      }
+    
+      .fp-txt{
+          padding-left: 20px;
+      }
+
+      .fp-paragraf{
+          padding-top: 20em;
+          padding-left: -10px;
+      }
+
+      .btn-fp{
+          padding-top: 10px;
+          padding-left: 6.8em;
+      }
+
+    /* front page start - shortcut */
+
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 30px;
+        text-align: center;
+      }
+      
+      .flex-item1 {
+        padding: 10px;
+        flex: 50%;
+        z-index: 2;
+        color: white;
+      }
+      
+      .flex-item3, .flex-item2 {
+        padding: 10px;
+        flex: 50%;
+        z-index: 4;
+        border: 2px solid black;
+      }
+
+      .flex-item2{
+          margin-left: 20px;
+      }
+
+      .flex-item4{
+        padding: 10px;
+        flex: 50%;
+        z-index: 4;
+        font-size: 15px;
+      }
+
+      .img-cheerz{
+          width: 230px;
+          height: 150px;
+          float: left;
+          margin-left: 10px;
+        margin-top: 10px;
+      }
+
+      .img-logo{
+        margin-left: 30px;
+        width: 130px;
+        height: 130px;
+        margin-top: 10px;
+      }
+
+      
+
+
+    /* front page start - billeder */
+    .pictures-column{
+        width: 33.33%;
+        margin-left: -5px;
+    }
+    
+
+      /* front page start - footer */
+
+      .grid-container-followme {
+        display: grid;
+        grid-gap: 200px;
+        background-color: #362C28;
+        padding: 10px;
+      }
+      
+      .grid-item {
+        text-align: center;
+        padding: 10px;
+        font-size: 30px;
+        grid-template-columns: auto auto ;
+      }
+      
+      .item1 {
+        grid-column: 1 / span 2;
+        grid-row: 1;
+      }
+      
+      .telefonnummer{
+        padding-left: 40px;
+      }
+
+      .email {
+          float: left;
+          margin-left: 250px;
+      }
+
+      
+      .item2 {
+            grid-column: 1 / span 2;
+            grid-row: 1 / 4;
+            margin-top: 250px;
+      }
+
+      h4 {
+          margin-left: 20px;
+          text-align: center;
+          
+      }
+
+      .fb {
+        float: left;
+        margin-left: 180px;
+      }
+
+      /* front page start - billeder */
+
+      .clsFirstimg {
+        width: 40%;
+        position: relative;
+        margin-left: 50%;
+        margin-top: 15%
+      }
+
+      .clsSecondimg {
+        width: 40%;
+        position: absolute;
+        margin-left: 35%;
+        margin-top:70%;
+      }
+
+      .clsThirdimg {
+        width: 40%;
+        position: absolute;
+        margin-left: 65%;
+        margin-top:90%;
+      }
+
+      /*cv side*/
+
+      .title-cv-txt {
+          text-align: center;
+          padding-left: 220px;
+      }
+
+  
+
+    .cv-txt-p {
+        color: black;
+        text-align: center;
+        margin-left: 5px;
+        margin-top: 130px;
+        font-size: 40px;
+        width: 110%;
+      
+    }
+    
+    .cv-txt {
+        color: black;
+        text-align: center;
+        margin-left: -130px;
+        margin-top: 130px;
+        font-size: 40px;
+        width: 130%;
+    }
+
+.pb2 {
+    padding-left: -400px;
+    margin: -2em;
+    margin-top:-82em;
+    padding:10%;
+}
+
+.pb1 {
+    padding-top: 10px;
+    margin:25em;
+    padding-left: 50px;
+
+}
+
+
+.btn-move-cv {
+    margin-top:-160px;
+    padding-left: 135px;
+}
+
+.grid-container-cv {
+    display: grid;
+    grid-gap: 200px;
+    padding: 10px;
+}
+
+/*contact me side*/
+.title-cm-txt {
+    margin-left: -860px;
+    margin-top: -30px;
+    font-size: 50px;
+    width: 400%
+}
+
+h2{
+    padding-left: 210px;
+    margin-top:60px;
+}
+
+.cm-txt {
+    margin-left: -410px;
+    margin-top: 150px;
+    width: 400%;
+    font-size: 30px;
+}
+
+.linkedin, .phonenumber, .emailaddress {
+    margin-left: 150px;
+    margin-top: -1em;
+    padding-top: 2em;
+    padding-bottom: 30px;
+}
+
+.social-media {
+    margin-left:150px;
+    margin-top: 40px;
+}
+
+.icon-fb, .icon-ig, .icon-gh{
+    padding-left: 10px;
+    margin-left: 2.2em;
+    width: 15%;
+}
+
+p{
+  margin-top: -12em;
+} 
+
+.DV {
+  margin-top: 5em;
+  width:100%;
+  margin-left: 70px;
+}
+
+.btn-cm {
+  margin-top: 20px;
+  margin-left: 130px;
+
+}
+
+/*portfoilio side*/
+.titlepf-txt {
+      padding-left: 89px;
+
+}
+
+.edit {
+  width: 180%;
+  margin-top: 20em;
+  margin-left: -3.5em;
+}
+
+.pf-pic {
+  margin-left: 200px;
+  margin-top: 15em;
+  width: 500%;
+}
+
+/*grid-container youtube - portfolio side*/
+.grid-container-yt {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+  width: 175%;
+  margin-top: 60em;
+}
+
+.grid-container-yt > section {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.youtube-channel {
+  grid-row: 1;
+  margin-left:10px;
+  margin-top: -2em;
+  width: 500%;
+
+}
+
+.youtube-text {
+  grid-row: 2 / 7;
+
+}
+
+.canva {
+  margin-left:-625px;
+  margin-top: 12em;
+  width: 20%;
+}
+
+
+.breadtxt {
+  margin-top:35em;
+  font-size: 23px;
+  margin-left: -14em;
+  width: 80%;
+}
+
+.edit {
+  margin-left: -140px;
+}
+
+/*grid-container design - portfolio side*/
+.grid-container-design {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  margin-top: 50em;
+  padding: 10px;
+  width: 175%;
+  margin-top: 10em;
+}
+
+.design-projects {
+  grid-row: 1 / 7;
+}
+
+
+.design-headtxt {
+  margin-left: -115px;
+  width: 175%;
+  text-align: center;
+  margin-top: -4em;
+  font-size: 40px;
+
+}
+
+.breadtxt-design {
+  margin-top:-4em;
+  font-size: 23px;
+  text-align: center;
+  margin-left: 0.1em;
+  width: 170%;
+}
+
+.dp-1 {
+  margin-left:-280px;
+  margin-top: 7em;
+  width: 150%;
+}
+
+.dp-2 {
+  margin-left:-400px;
+  margin-top: 23em;
+  width: 120%;
+
+}
+
+.dp-3 {
+  margin-left:-450px;
+  margin-top:50em;
+  width: 150%;
+}
+
+
+/*grid-container video - portfolio side*/
+
+.videos-txt {
+  color: black;
+  text-align: center;
+  margin-left: 60px;
+  font-size: 40px;
+}
+
+.Youtube{
+  margin-left: 150px;
+  margin-top: 20px;
+  width: 420px;
+  height: 345px;
+}
+
+.SU-kokken {
+  margin-left: 150px;
+  margin-top: 140px;
+  width: 420px;
+  height: 345px;
+}
+
+.breadtxt-video {
+  margin-top:2em;
+  font-size: 23px;
+  text-align: center;
+  margin-left: 1.2em;
+  width: 170%;
+}
+
+    }

@@ -1,0 +1,78 @@
+/* mobile version*/
+@media screen and (min-width: 900px) {
+
+.flex-container-footer {
+    background-color: #362C28;
+    z-index: 3;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 1px;
+  
+  }
+  
+  .flex-item-sm {
+    padding: 10px;
+    flex: 100%;
+    z-index: 3;
+  
+  }
+  
+  
+  .flex-item-cm {
+    flex: 50%;
+    margin-top: 20px;
+    z-index: 3;
+  
+  }
+  
+  h4 {
+    margin-left: 10px;
+    text-align: center;
+    color: white;
+    z-index: 3;
+  
+  }
+  
+  .email, .telefonnummer {
+      height: auto;
+      width: auto;
+      z-index: 3;
+      padding: 0;   
+      margin-top: 10px;
+      margin-left: 890px;
+      margin-bottom: 20px;
+  
+  }
+  
+  .telefonnummer{
+    margin-left: 26px;
+  }
+  
+  .fb, .gh, .ld{
+    height: auto;
+    width: auto;
+    z-index: 3;
+    padding: 10px;
+    margin-top: 8px;
+  margin-left: 10px;
+  }
+  
+  .ig{
+    height:55px;
+    width: 55px;
+    z-index: 3;
+    padding: 7.5px;
+    margin-top: 10px;
+    margin-left: 4px;
+  }
+  
+  .fb {
+    margin-left: 810px;
+    z-index: 3;
+  }
+
+
+
+}

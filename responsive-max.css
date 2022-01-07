@@ -121,20 +121,20 @@
         flex: 50%;
         z-index: 2;
         color: white;
+        margin-top: 10px;
       }
       
       .flex-item3, .flex-item2 {
         padding: 10px;
         flex: 50%;
         z-index: 4;
-        border: 2px solid black;
       }
 
       .flex-item2{
           margin-left: 20px;
       }
 
-      .flex-item4{
+      .flex-txt{
         padding: 10px;
         flex: 50%;
         z-index: 4;
@@ -142,10 +142,10 @@
       }
 
       .img-cheerz{
-          width: 230px;
+          width: 260px;
           height: 150px;
           float: left;
-          margin-left: 10px;
+          margin-left: 40px;
         margin-top: 10px;
       }
 
@@ -156,6 +156,59 @@
         margin-top: 10px;
       }
 
+      .flex-youtube {
+        padding: 10px;
+        flex: 100%;
+        z-index: 2;
+        color: white;
+        margin-top: 30px;
+      }
+
+      .flex-yt{
+        margin-left: 15px;
+        margin-top: 60px;
+        margin-bottom: 10px;
+        z-index: 3;
+      }
+    
+      .img-yt{
+        width: 350px;
+        height: 200px;
+      }
+
+      .flex-yttxt{
+        padding: 10px;
+        flex: 100%;
+        z-index: 4;
+        font-size: 15px;
+        margin-top: 10px;
+      }
+
+      .btn-sc{
+        padding-left: 10px;
+        z-index: 2;
+        position: relative;
+        float: left;
+        background-color: black;
+        color: white;
+        margin-bottom: 10px;
+        font-size: 13px;
+        padding: 10px 24px;
+
+      }
+      
+      .button-sc1{
+        margin-left: 80px;
+        z-index: 2;
+
+      }
+
+      .button-sc2{
+        margin-left: 150px;
+        z-index: 2;
+        margin-bottom: 10px;
+        
+      }
       
 
 
@@ -165,77 +218,6 @@
         margin-left: -5px;
     }
     
-
-      /* front page start - footer */
-
-      .grid-container-followme {
-        display: grid;
-        grid-gap: 200px;
-        background-color: #362C28;
-        padding: 10px;
-      }
-      
-      .grid-item {
-        text-align: center;
-        padding: 10px;
-        font-size: 30px;
-        grid-template-columns: auto auto ;
-      }
-      
-      .item1 {
-        grid-column: 1 / span 2;
-        grid-row: 1;
-      }
-      
-      .telefonnummer{
-        padding-left: 40px;
-      }
-
-      .email {
-          float: left;
-          margin-left: 250px;
-      }
-
-      
-      .item2 {
-            grid-column: 1 / span 2;
-            grid-row: 1 / 4;
-            margin-top: 250px;
-      }
-
-      h4 {
-          margin-left: 20px;
-          text-align: center;
-          
-      }
-
-      .fb {
-        float: left;
-        margin-left: 180px;
-      }
-
-      /* front page start - billeder */
-
-      .clsFirstimg {
-        width: 40%;
-        position: relative;
-        margin-left: 50%;
-        margin-top: 15%
-      }
-
-      .clsSecondimg {
-        width: 40%;
-        position: absolute;
-        margin-left: 35%;
-        margin-top:70%;
-      }
-
-      .clsThirdimg {
-        width: 40%;
-        position: absolute;
-        margin-left: 65%;
-        margin-top:90%;
-      }
 
       /*cv side*/
 
@@ -495,3 +477,76 @@ p{
 }
 
     }
+
+/*front page start - footer*/
+.flex-container-footer {
+  background-color: #362C28;
+  z-index: 3;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 1px;
+
+}
+
+.flex-item-sm {
+  padding: 10px;
+  flex: 100%;
+  z-index: 3;
+
+}
+
+
+.flex-item-cm {
+  flex: 50%;
+  margin-top: 20px;
+  z-index: 3;
+
+}
+
+h4 {
+  margin-left: 10px;
+  text-align: center;
+  color: white;
+  z-index: 3;
+
+}
+
+.email, .telefonnummer {
+    height: auto;
+    width: auto;
+    z-index: 3;
+    padding: 0;   
+    margin-top: 10px;
+    margin-left: 160px;
+    margin-bottom: 20px;
+
+}
+
+.telefonnummer{
+  margin-left: 26px;
+}
+
+.fb, .gh, .ld{
+  height: auto;
+  width: auto;
+  z-index: 3;
+  padding: 10px;
+  margin-top: 8px;
+margin-left: 10px;
+}
+
+.ig{
+  height:55px;
+  width: 55px;
+  z-index: 3;
+  padding: 7.5px;
+  margin-top: 10px;
+  margin-left: 4px;
+}
+
+.fb {
+  margin-left: 80px;
+  z-index: 3;
+}

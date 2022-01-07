@@ -5,60 +5,54 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Hannah Clausens Portfolio</title>
 
+            <!-- almindelig css til desktop-->
         <link rel="stylesheet" href="index_style.css">
-        <link rel="stylesheet" href="Portfolio_style.css">
+            <!-- css med max 600px -->
+        <link rel="stylesheet" href="responsive-max.css">
+            <!-- css med mindst 900px -->
+        <link rel="stylesheet" href="responsive-min.css">
 
 
-    </head>
-    <body>
-        <img class="logo" src="HANNAHCLAUSEN_LOGO.png" alt="logo" width="235" height="240"> >
+</head>
+<body>
+  <!--nav bar-->
+  <img class="logo" src="HANNAHCLAUSEN_LOGO.png" alt="logo">
 
-        <!-- Den nederste brune bar - Indeholder logo og navigation - kode taget fra iværksætterprojektet -->     
-  <header class="main-header">
-   
-    <div class="header-top">
-      <div class="responsive-header-top">
-        <h1>HANNAH P. E. M. CLAUSEN</h1>
-      </div>
-    </div>
+  <header class="head-txt">
+    <h1 class="h1-txt"><span>HANNAH CLAUSENS PORTFOLIO</span></h1>
+  </header>
 
-<!--den hvide nav bar - kode taget fra iværksætter konkurrencen-->
-          <div class="header-bottom">
-            <div class="responsive-header-bottom">
-            <nav>
-                <div class="menu" id="mobile-menu"></div>
-                <div>
-                    <a href="index.html">FRONT PAGE</a>
-                    <a href="CV.html">CV</a>
-                    <a href="Portfolio.html">PORTFOLIO</a>
-                    <a href="Contactme.html">CONTACT INFO</a>
-                </div> 
-              </nav>              
-            </div>
-          </div>
-        </header> 
-  </body>
-<main>
-    <section class="grid-container-text">
-        <section class="grid-item-cv cv-item1">
+  <div class="head-nav">
+    <label for="toggle">&#9776;</label>
+      <input type="checkbox" id="toggle"/>
+        <div class="menu">
+          <a href="nyindex.html">FRONT PAGE</a>
+          <a href="Portfolio.html">PORTFOLIO</a>
+          <a href="CV.html">CV</a>
+          <a href="Contactme.html">CONTACT ME</a>
+        </div>
+  </div>
+
+<!-- portfoilo start-->
+  <h1 style="display: none;">Portfolio text</h1>
+    <section class="pf-text">
         <h1 class="titlepf-txt">
             PORTFOLIO
             <br>
         </h1> 
-    <h1 class=cv-txt>
+    <h2 class=portfolio-txt>
         HANNAH CLAUSEN 
         <br><br>  
         WEB DEVELOPER & GRAPHIC DESIGNER            
-    </h1>
-        <p class="cv-txt-p">
+    </h2>
+        <p class="pf-paragraf">
             Welcome to my portfolio. This is where you can see my best work. 
         </p>  
     </section>
-</section>
 
 
 <section class="pf-pic">
-  <img src="Group-5.png" alt="Profile Picture" width="100%">
+  <img src="Group-5.png" class="pb-portfolio" alt="Profile Picture" width="100%">
 </section>
 
 <h2 class="edit">
@@ -139,25 +133,26 @@
   
 
 
-</main>
+ 
 
 
- <!-- CV - footer -->
+    <!-- portfoilo - footer -->
     
- <footer class="grid-container-followme">
-  <section class="grid-item item1">
-  <h4>FOLLOW ME</h4>
+    <footer class="flex-container-footer">
+      <section class="flex-item-sm">
+        <h4>FOLLOW ME</h4>
+                
+          <a href="https://www.facebook.com/hannah.clausen.7"><img src="Icon-simple-facebook.png" class="fb" alt="Facebook"></a>
+          <a href="https://www.instagram.com/hannahpemclausen/"><img src="Iconawesome-instagram.png" class="ig" alt="Instagram"></a>
+          <a href="https://github.com/hpemcl/Examsproject-2021"><img src="Icon-simple-github.png" class="gh" alt="Github"></a>
+          <a href="https://www.linkedin.com/in/hannah-clausen/"><img src="Icon-ionic-logo-linkedin.png" class="ld" alt="LinkedIn"></a>
+          
+      </section>
+        <section class="flex-item-cm">
+          <h4>CONTACT ME</h4>
         
-            <a href="https://www.facebook.com/hannah.clausen.7"><img src="Icon-simple-facebook.png" class="fb" alt="Facebook"></a>
-            <a href="https://www.instagram.com/hannahpemclausen/"><img src="Icon-awesome-instagram.png" class="ig" alt="Instagram"></a>
-            <a href="https://github.com/hpemcl/Examsproject-2021"><img src="Icon-simple-github.png" class="gh" alt="Github"></a>
-            <a href="https://www.linkedin.com/in/hannah-clausen/"><img src="Icon-ionic-logo-linkedin.png" class="ld" alt="LinkedIn"></a>
-  
-  </section>
-  <section class="grid-item item2">
-    <h4>CONTACT ME</h4>
-  
-              <a href="mailto:hannahclausen21@gmail.com"><img class="email" src="Icon-material-mail.png" alt="mail"></a>
-              <a href="tel:+4560811519"><img class="telefonnummer" src="Icon-awesome-phone-alt.png" alt="Phone"></a>
-    </section>          
-</footer> 
+            <a href="mailto:hannahclausen21@gmail.com"><img class="email" src="Icon-material-mail.png" alt="mail"></a>
+            <a href="tel:+4560811519"><img class="telefonnummer" src="Icon-awesome-phone-alt.png" alt="Phone"></a>
+        </section>  
+      </body>         
+    </footer>  

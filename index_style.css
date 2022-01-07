@@ -63,7 +63,7 @@ label {
   font-size: 20px;
   position: absolute;
   float: left;
-  padding-left: 20em;
+  padding-left: 29em;
   margin-top: -30px;
 }
 
@@ -83,9 +83,9 @@ label {
     font-size: 16px;
     margin: 2px 1px;
     cursor: pointer;
-    margin-top: 150px;
     border-color: black;
     border-width: 10px solid;
+    z-index: 2;
   }
 
 .btn-move{
@@ -111,7 +111,7 @@ label {
 .front-column {
   float: left;
   padding-top: 100px;
-  margin-left: 18em;
+  margin-left: 29em;
   z-index: -4;
   width: 33.33;
 }
@@ -132,7 +132,6 @@ label {
   
 }
 
-/* Clearfix (clear floats) */
 .front-row::after {
   content: "";
   clear: both;
@@ -145,7 +144,7 @@ label {
   padding: 10px;
   float: left;
   position:absolute;
-  padding-left: 300px;
+  padding-left: 500px;
 }
 
 .fp-txt{
@@ -218,7 +217,7 @@ label {
     flex: -2px;
     z-index: 4;
     margin-top: 10px;
-    margin-left: 450px;
+    margin-left: 630px;
     padding-left: 10px;
 
   }
@@ -232,7 +231,7 @@ label {
   }
  
 
-  .flex-item4{
+  .flex-txt{
     padding: 10px;
     flex: 100%;
     z-index: 4;
@@ -242,7 +241,7 @@ label {
 
   .img-cheerz{
     margin-left: 2px;
-    width: 230px;
+    width: 260px;
     height: 150px;
     margin-top: 50px;
 }
@@ -254,6 +253,60 @@ label {
     margin-top: 10px;
   }
 
+
+
+  .flex-youtube {
+    padding: 10px;
+    flex: 100%;
+    z-index: 2;
+    color: white;
+    margin-top: 20px;
+  }
+
+  .flex-yt{
+    margin-left: 580px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    z-index: 3;
+  }
+
+  .img-yt{
+    width: 700px;
+    height: 400px;
+  }
+
+  .flex-yttxt{
+    padding: 10px;
+    flex: 100%;
+    z-index: 4;
+    font-size: 20px;
+  }
+
+  .btn-sc{
+    padding-left: 10px;
+    z-index: 2;
+    position: relative;
+    float: left;
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 15px;
+    padding: 10px 24px;
+
+  }
+  
+  .button-sc1{
+    margin-left: 820px;
+    z-index: 2;
+
+  }
+
+  .button-sc2{
+    margin-left: 890px;
+    z-index: 2;
+    margin-bottom: 10px;
+    
+  }
 
 
 /*cv side - tekst*/
@@ -411,10 +464,28 @@ h2 {
 
 }
 
-/*portfoilio side*/
+/*portfoilo side*/
 .titlepf-txt {
-  padding-left: 570px;
+  margin-left: 800px;
+  margin-top: 20px;
+  padding-left: 0;
+}
 
+.portfolio-txt{
+  margin-left: 670px;
+  margin-top: 100px;
+  padding-left: 0;
+  position: absolute;
+  float: left;
+}
+
+.pf-paragraf{
+  margin-left: 710px;
+  margin-top: 210px;
+  padding-left: 0;
+  position: absolute;
+  float: left;
+  font-size: 20px;
 }
 
 .edit {
@@ -425,8 +496,11 @@ margin-left: -32em;
 
 .pf-pic {
 margin-left: 10px;
-margin-top: -18em;
-width: 100%;
+margin-top: 10px;
+}
+
+.pb-portfolio{
+  width: 100%;
 }
 
 /*grid-container youtube - portfolio side*/
@@ -562,56 +636,8 @@ margin-bottom: 100px;
 
 
     
-/*front page start - footer*/
-.grid-container-followme {
-    display: grid;
-    grid-gap: 5px;
-    background-color: #362C28;
-    padding: 10px;
-  }
-  
-  .grid-item {
-    text-align: center;
-    padding: 10px;
-    font-size: 30px;
-  }
-  
-  .item1 {
-    grid-column: 1 / span 2;
-    grid-row: 1;
-  }
-  
-  .telefonnummer{
-    padding-left: 40px;
-  }
 
-  .email {
-    float: left;
-    margin-left: 670px;
-  }
 
-  
-  .item2 {
-    grid-column: 1 / span 2;
-    grid-row: 1 / 4;
-    margin-top: 250px;
-  }
-
-  h4 {
-      margin-left: 80px;
-      text-align: center;
-      color: white;
-      
-  }
-
-  .fb, .ig, .gh, .ld, .email, .telefonnummer {
-      height: auto;
-      width: auto;
-  }
-
-  .fb {
-    margin-left: 600px;
-  }
 
 
 
